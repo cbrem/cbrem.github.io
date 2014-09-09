@@ -7,11 +7,11 @@
     padding-top: 3.45em;
   }
 
-  .posts {
+  .pages {
     font-size: 0.9em;
   }
 
-  .footer {
+  .contact {
     font-size: 0.85em;
   }
 }
@@ -30,7 +30,7 @@
     padding-top: 3.85em;
   }
 
-  .posts {
+  .pages {
     font-size: 0.85em;
   }
 
@@ -42,7 +42,7 @@
     padding-right: 3em;
   }
 
-  .footer {
+  .contact {
     font-size: 0.85em;
   }
 }
