@@ -1,0 +1,293 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #4a4a4a;
+  background-color: #fafbfc;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  overflow: hidden;
+}
+
+a {
+  color: #8085C1;
+  text-decoration: none;
+  border: none;
+}
+
+a img {
+  outline: none;
+}
+
+a:hover {
+  color: #555;
+  border: none;
+}
+
+.separator {
+  color: #555;
+}
+
+
+/*****************************************************************************/
+/*
+/* Sidebar
+/*
+/*****************************************************************************/
+#logo {
+  max-width: 128px;
+}
+
+.pages a {
+  color: #444;
+}
+
+.pages a:hover {
+  color: #777;
+}
+
+.pages-list {
+  list-style-type: none;
+}
+
+.pages-list li {
+  text-align: center;
+  line-height: 1.75em;
+}
+
+.site {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25em;
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.tagline {
+  width: 100%;
+  color: #787878;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+  display: block;
+}
+
+.pages {
+  border-top: 1px solid #bbbbbb;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+}
+
+.contact {
+  font-size: 0.95em;
+  border-top: 1px solid #bbbbbb;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  overflow: hidden;
+  float: center;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Pages
+/*
+/*****************************************************************************/
+
+.page-title {
+  color: #4a4a4a;
+  margin-bottom: 0.35em;
+  font-size: 3em;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+#cover-photo-container,
+#info-container {
+  display: block;
+  margin-top: 3em;
+  max-width: 725px;
+}
+
+#info-container p {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 1em;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+.post-title {
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px dotted #bbbbbb;
+}
+
+.post-title h1 {
+  color: #4a4a4a;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  font-size: 2em;
+  line-height: 40px;
+  font-style: italic;
+}
+
+.post {
+  margin-top: 2.5em;
+  margin-left: 2.5em;
+  margin-bottom: 7.5em;
+  max-width: 725px;
+}
+
+.post-content {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  clear: both;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.post-content h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.post-content a,
+#about a {
+  border-bottom: 1px solid #8085C1;
+}
+
+.post-content a:hover {
+  border: none;
+}
+
+/* standard */
+.post-content pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post-content p {
+  margin-bottom: 1.45em;
+  text-align: justify;
+}
+
+.post-content ul, .post-content ol {
+  margin-left: 2.35em;
+  margin-bottom: 1.25em;
+}
+
+.post-content code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post-content pre code {
+  border: none;
+}
+
+/* terminal */
+.post-content pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post-content pre.terminal code {
+  background-color: #333;
+}
+
+.post-footer {
+  border-top: 1px dotted #bbbbbb;
+}
+
+.post-footer p {
+  margin-top: 1em;
+  font-size: 0.95em;
+  color: #777;
+}
+
+/*****************************************************************************/
+/*
+/* Sidebar and Content
+/*
+/*****************************************************************************/
+
+.sidebar,
+.content {
+  vertical-align: top;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  float: left;
+  width: 14%;
+  padding-left: 11em;
+  padding-right: 2.125em;
+  border-right: 1px solid #bbbbbb;
+}
+
+.content {
+  padding-left: 2.125em;
+}
+
+.header {
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.sidebar-page-link {
+  margin-bottom: 0.75em;
+}
+
+.sidebar-page-title {
+  font-weight: 600;
+  font-size: 1.75em;
+  text-transform: uppercase;
+}
+
+#sidebar-button {
+  height: intrinsic;
+  cursor: pointer;
+  display: none;
+  padding: 15px 5px 0px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+#sidebar-button:active,
+#sidebar-button:hover {
+  opacity: 0.7;
+}
