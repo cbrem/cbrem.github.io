@@ -237,6 +237,11 @@ a:hover {
   margin: 1em;
 }
 
+.post-content iframe {
+  float: left;
+  margin: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content
