@@ -12,6 +12,6 @@ Satellites are funny things. It’s easy to forget how rapidly they circle the e
 
 What’s even stranger is that one of these satellites, the International Space Station, has people in it.
 
-“Ships to Sail the Void” plots the trajectory of the Space Station with a laser that it shines onto nearby surfaces. When it is activated, it takes a minute to show the path that the Space station will take over the next one hundred minutes.
+*Ships to Sail the Void* plots the trajectory of the Space Station with a laser that it shines onto nearby surfaces. When it is activated, it takes a minute to show the path that the Space station will take over the next one hundred minutes.
 
 Whenever it starts, it pulls tracking data from [n2yo](http://www.n2yo.com). It sends instructions over Firmata (I used [PyMata](https://github.com/MrYsLab/PyMata) on the Python side) to a microcontroller, which moves the laser dot.
