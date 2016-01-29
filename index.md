@@ -3,8 +3,8 @@ layout: category
 image: sf.png
 ---
 
-Welcome to my site! I'm Connor.
+Welcome to my site! I'm Connor, a software engineer from Pittsburgh, Pennsylvania.
 
-I'm a graduate of Carnegie Mellon University's Computer Science program. I'm interested in systems, languages, education, and tinkering with electronics. I've worked at Google and Mozilla, and I'll start work at Duolingo in March.
+I develop [testcenter.duolingo.com](https://testcenter.duolingo.com) for Duolingo. I'm a graduate of Carnegie Mellon University's Computer Science program. I'm interested in linguistics, programming languages, education, and tinkering with electronics.
 
 Check out some of my projects!
