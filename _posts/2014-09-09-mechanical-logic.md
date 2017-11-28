@@ -13,6 +13,6 @@ For CMU's Build18 hack week in 2013, we developed very small, LEGO-compatible ve
 
 Later, at CMU's 2013 Meeting of the Minds, we won an award from the *Studio for Creative Inquiry*, a studio in CMU's College of Fine Arts. This award went to projects which meshed disciplines: in our case, the disciplines of electrical engineering, industrial design, and education.
 
-Since late 2012, the *Mechanical Logic* team has worked with the University of Pittsburgh and CMU to depoly the gates and an associated curriculum at a number of events. We've worked with *TechNights* and *ECE Outreach* at CMU and *Scientists, Mathematicians, And Engineers For Service* at Pitt. We've also worked on our own to each lessons at *Mt. Lebanon High School* in Pittsburgh, PA.
+Since late 2012, the *Mechanical Logic* team has worked with the University of Pittsburgh and CMU to deploy the gates and an associated curriculum at a number of events. We've worked with *TechNights* and *ECE Outreach* at CMU and *Scientists, Mathematicians, And Engineers For Service* at Pitt. We've also worked on our own to each lessons at *Mt. Lebanon High School* in Pittsburgh, PA.
 
-Our project blog (which has been inactive as of late) is [here](http://mechalogic.wordpress.com). And a link to an updated responsitory of the gate designs will be posted shortly!
+Our project blog (which has been inactive as of late) is [here](http://mechalogic.wordpress.com).
