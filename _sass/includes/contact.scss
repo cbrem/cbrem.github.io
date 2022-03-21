@@ -1,0 +1,25 @@
+.contact {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .contact-item {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        svg {
+            width: 18px;
+            display: inline-block;
+            color: var(--fg-color);
+        }
+        a {
+            text-decoration: none;
+            padding-left: 6px;
+            @include body-text;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

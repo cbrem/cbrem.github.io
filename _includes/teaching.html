@@ -1,0 +1,19 @@
+{% assign teaching = site.data.data.teaching %}
+{% if teaching %}
+<section class="experience">
+    <h2 class="title">Teaching</h2>
+    {% for t in teaching %}
+        <div class="experience-item">
+            <div class="role">
+                {{t.role}}
+            </div>
+            <div class="company">
+                {{t.program}} 
+                <span class="time">{{t.time}}</span>
+            </div> 
+            <div class="details">{{t.details}}</div>
+        </div>
+       
+    {% endfor %}
+</section>
+{% endif %}

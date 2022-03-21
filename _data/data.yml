@@ -1,0 +1,68 @@
+name: Connor Brem
+support_dark_mode: true
+fork: true
+
+# Topbar
+contact:
+  web: connorbrem.com
+  email: connorbrem@gmail.com
+  github: cbrem
+  phone: 412-335-9485 
+
+education:
+  - degree: B.S. Computer Science
+    time: Fall 2011 - Fall 2014
+    university: Carnegie Mellon University
+    gpa: 3.88 / 4.0
+    honors: School of Computer Science Honors, University Honors
+
+# Experience
+experience:
+  - role: Machine Learning Engineer
+    time: Summer 2019 - Present
+    company: Duolingo
+    details: |
+      Designed, tuned, and implemented models to detect cheating and collaboration on the Duolingo English Test, a computer-adaptive English proficiency exam. Designed and implemented distributed machine learning infrastructure in Java and Python to support the Duolingo app.
+  
+  - role: Software Engineer
+    time: Spring 2015 - Summer 2019
+    company: Duolingo
+    details: |
+      Led software development on the Duolingo English Test. Managed priorities and code quality for a team of engineers. Designed, implemented, and analyzed A/B tests to improve the exam’s accuracy, user experience, and stability on poor networks.
+
+  - role: Software Engineering Intern
+    time: Summer 2014
+    company: Mozilla
+    details: |
+      Designed and implemented APIs for Firefox’s Add-on SDK. Made a number of other contributions to Firefox’s developer tools. Worked in Javascript.
+
+  - role: Software Engineering Intern
+    time: Summer 2013
+    company: Google
+    details: |
+      Designed, implemented, and launched new internal APIs and documentation for a major Google publisher-subscriber system. This system is used by Chrome, Google+, and Google Drive. The new APIs, written in JavaScript and Google’s Closure Library, significantly increased the system’s ease of adoption.
+
+teaching:
+  - role: Computer Science Teacher
+    time: Winter 2022
+    program: Mt. Lebanon High School
+    details: |
+      Taught six sections of Honors and Advanced Placement computer science at Mt. Lebanon High School. Designed and delivered a rigorous computer science curriculum to over 100 students.
+
+  - role: Curriculum Designer + Manager
+    time: Summer 2021, Summer 2022
+    program: Thrive Internships
+    details: |
+      Designed and co-ran Duolingo’s inaugural Thrive internship program. This 8-week program offered software engineering coursework and practical project work to 8 college sophomores from underrepresented backgrounds. The program was a huge success, and Duolingo plans to expand it for 2022.
+
+  - role: Instructor
+    time: Spring 2016, Spring 2017
+    program: Coding Club @ Propel East
+    details: |
+      Developed and taught introductory programming courses at Propel East, part of a charter school network for underserved communities in Pittsburgh. Taught Python, Processing, and Scratch to after-school classes of around a dozen students every week.
+
+  - role: Course Assistant
+    time: Fall 2012 - Fall 2014
+    program: Introduction to Programming
+    details: |
+      Taught and mentored novice programmers in Carnegie Mellon’s most difficult introductory computer science course, which uses Python. Taught recitations for 30 students, held tutoring and review sessions for many more, and guided the development of term projects.

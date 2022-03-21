@@ -1,2 +1,3 @@
-_site/
-TODO.md
+_site
+.sass-cache
+.jekyll-metadata
