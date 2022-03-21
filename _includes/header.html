@@ -1,7 +1,13 @@
 <div class="header">
     <h1 class="title">{{site.data.data.name}}</h1>
-    {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-    {%endif%}
+    <div class="buttons">
+      {% if site.data.data.support_print %}
+        <input type="checkbox" id="print"></input>
+        <label for="print"><i id="printer" data-feather="printer"></i></label>
+      {% endif %}
+      {% if site.data.data.support_dark_mode %}
+        <input type="checkbox" id="mode"></input>
+        <label for="mode"><i id="moon" data-feather="moon"></i></label>
+      {% endif %}
+    </div>
   </div>

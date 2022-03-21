@@ -1,23 +1,30 @@
 .header {
-    width: 90%;
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     .title {
         color: var(--fg-color);
         font-weight: bolder;
         text-transform: uppercase;
-        margin: 0 auto;
+        margin: 0 auto 20px;
     }
-    input[type="checkbox"] {
-        width: 0;
-        height:0;
-        display: none;
-    }
-    label {
-        cursor: pointer;
-        color: var(--fg-color);
-        
+    .buttons{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        input[type="checkbox"] {
+            width: 0;
+            height:0;
+            display: none;
+        }
+        label {
+            cursor: pointer;
+            color: var(--fg-color);
+            padding-left: 10px;
+            
+        }
     }
 }
