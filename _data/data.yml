@@ -18,17 +18,11 @@ education:
 
 # Experience
 experience:
-  - role: Machine Learning Engineer
-    time: Summer 2019 - Present
+  - role: Senior Software Engineer
+    time: Spring 2015 - Summer 2022
     company: Duolingo
     details: |
-      Designed, tuned, and implemented models to detect cheating and collaboration on the Duolingo English Test. Developed distributed machine learning infrastructure in Java and Python to support the Duolingo app.
-  
-  - role: Software Engineer
-    time: Spring 2015 - Summer 2019
-    company: Duolingo
-    details: |
-      Served as tech lead for the Duolingo English Test. Designed, implemented, and analyzed A/B tests to improve the test’s validity, performance, and user experience.
+      Served as tech lead and developed cheating detection models for the Duolingo English Test. Built high-volume machine learning infrastructure to optimize learning and monetization throughout the company. Currently developing Duolingo's fledgling math app.
 
   - role: Software Engineering Intern
     time: Summer 2014
