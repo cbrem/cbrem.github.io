@@ -1,0 +1,43 @@
+.section {
+    .title {
+        @include header;
+        margin-top: 30px;
+    }
+    .section-item {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            @include sub-header;
+        }
+        .org {
+            @include body-text;
+            font-weight: bold;   
+        }
+        .time {
+            @include body-text;
+            color: var(--fg-color-title-sm);
+        }
+        .details {
+            @include body-text;
+            list-style: none;
+            margin: 2px 0 0;
+            padding: 0;
+              
+            .detail:not(:only-child) {
+                margin-left: 1em;
+
+                // Custom bullet.
+                &::before {
+                    content: "-";
+                    color: var(--fg-color);
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+        }
+    }
+}

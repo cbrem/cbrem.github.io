@@ -2,61 +2,47 @@ name: Connor Brem
 support_dark_mode: false
 support_print: true
 
-# Topbar
 contact:
   web: connorbrem.com
   email: connorbrem@gmail.com
   github: cbrem
   phone: 412-335-9485 
 
-education:
-  - degree: B.S. Computer Science
-    time: Fall 2011 - Fall 2014
-    university: Carnegie Mellon University
-    gpa: 3.88 / 4.0
-    honors: School of Computer Science Honors, University Honors
-
-# Experience
-experience:
-  - role: Senior Software Engineer
-    time: Spring 2015 - Summer 2022
-    company: Duolingo
-    details: |
-      Served as tech lead and developed cheating detection models for the Duolingo English Test. Built high-volume machine learning infrastructure to optimize learning and monetization throughout the company. Currently developing Duolingo's fledgling math app.
-
-  - role: Software Engineering Intern
-    time: Summer 2014
-    company: Mozilla
-    details: |
-      Designed and implemented Javascript APIs for Firefox’s Add-on SDK. Made a number of other contributions to Firefox’s developer tools.
-
-  - role: Software Engineering Intern
-    time: Summer 2013
-    company: Google
-    details: |
-      Designed, implemented, and launched new Javascript APIs and documentation for a publisher-subscriber system used by Chrome, Drive, and many other Google products.
-
-teaching:
-  - class: Honors & AP Computer Science
-    time: Winter 2022
-    org: Mt. Lebanon High School
-    details: |
-      Taught daily computer science classes to over 100 students. Designed and delivered a rigorous 3-month introductory programming curriculum.
-
-  - class: Thrive Internship Program
-    time: Summer 2021, Summer 2022
-    org: Duolingo
-    details: |
-      Designed and ran Duolingo’s Thrive Internship Program. Thrive offered software engineering coursework and hands-on project work to college sophomores from underrepresented backgrounds.
-
-  - class: Coding Club
-    time: Spring 2016, Spring 2017
-    org: Propel East Middle School
-    details: |
-      Taught weekly programming courses on Python, Processing, and Scratch to after-school classes of around a dozen students.
-
-  - class: "15-112: Intro to Programming"
-    time: Fall 2012 - Fall 2014
-    org: Carnegie Mellon University
-    details: |
-      Worked as an instructor for Carnegie Mellon’s accelerated introductory programming course. Gave weekly recitations, held office hours and review sessions, and mentored students through term projects.
+sections:
+  - title: Education
+    items:
+    - subtitle: B.S. of Computer Science
+      time: Fall 2011 - Fall 2014
+      org: Carnegie Mellon University
+      details: 
+        - University Honors, School of Computer Science Honors
+  - title: Experience
+    items:
+    - subtitle: Senior Software Engineer (Full Stack)
+      time: Spring 2015 - Present
+      org: Duolingo
+      details:
+        - Served as tech lead for the Duolingo English Test. Designed & built a novel machine learning system for cheating detection.
+        - As part of the Learning AI Lab, built a system for running multi-armed bandits company-wide. Also built distributed machine learning infrastructure to optimize teaching efficacy.
+        - Helped launch Duolingo's fledgeling math course. Designed & built a system to rapidly author content for the new course.
+        - Founded Duolingo's mental health organization, which promotes mental health and advocates for neurodiverse employees.
+  - title: Teaching
+    items:
+    - subtitle: Thrive Internship Program
+      time: Summer 2021, Summer 2022
+      org: Duolingo
+      details:
+        - Developed & led Duolingo’s Thrive Internship Program for students from underrepresented communities.
+        - Designed & delivered curriculum, led students in hands-on project work.
+    - subtitle: Honors & AP Computer Science
+      time: Winter 2022
+      org: Mt. Lebanon High School
+      details:
+        - Taught daily computer science classes to over 100 students.
+        - Designed & delivered a rigorous 3-month introductory programming curriculum.
+    - subtitle: "15-112: Intro to Programming"
+      time: Fall 2012 - Fall 2014
+      org: Carnegie Mellon University
+      details:
+        - Worked as an instructor for Carnegie Mellon’s accelerated introductory programming course.
+        - Gave weekly recitations, held office hours and mentored students through term projects.

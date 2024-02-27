@@ -6,9 +6,9 @@ layout: default
   <div class="container-block">
     <div class="main">
       {% include contact.html %}
-      {% include education.html %}
-      {% include experience.html %}
-      {% include teaching.html %}
+      {% for section in site.data.data.sections %}
+        {% include section.html %}
+      {% endfor %}
     </div>
   </div>
 </div>

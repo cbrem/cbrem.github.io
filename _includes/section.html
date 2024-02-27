@@ -1,0 +1,21 @@
+{% if section %}
+<section class="section">
+    <h2 class="title">{{section.title}}</h2>
+    {% for item in section.items %}
+        <div class="section-item">
+            <div class="subtitle">
+                {{item.subtitle}}
+            </div>
+            <div class="org">
+                {{item.org}} ({{item.time}})
+            </div> 
+            <ul class="details">
+                {% for detail in item.details %}
+                    <li class="detail">{{detail}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+       
+    {% endfor %}
+</section>
+{% endif %}
